@@ -1,0 +1,547 @@
+a { color: #0066dd; }
+h2 {
+  color: #999999;
+  font-weight: normal;
+}
+h2 b { color: #555555; }
+h3 {
+  font-size: 1.2em;
+  color: #222222;
+}
+h4 { color: #444444; }
+a:hover {
+  background: #0066dd;
+  color: white;
+}
+small {
+  color: #333333;
+  font-size: 0.85em;
+}
+dl { border-top: 1px solid #cccccc; }
+dt, dd {
+  border-bottom: 1px solid #cccccc;
+  line-height: 30px;
+}
+dt {
+  float: left;
+  width: 100px;
+  color: #333333;
+}
+dd {
+  text-align: right;
+  color: #333333;
+}
+dd a { color: inherit; }
+.info-tweet { width: 340px; }
+.info-tweet h1 { font-size: 1em; }
+.info-tweet h1 a { color: #333333; }
+.info-tweet .avatar {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+.info-tweet .user { margin-bottom: 0; }
+.title {
+  height: 60px;
+  padding-top: 40px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+.title h1 {
+  line-height: 60px;
+  font-size: 1em;
+  margin: 0 !important;
+}
+.title h2 {
+  line-height: 60px;
+  font-size: 1em;
+  margin: 0 !important;
+}
+.title h1 em {
+  padding: 0;
+  display: inline-block;
+  border: 1px solid #aaaaaa;
+  line-height: 15px;
+  margin-right: 5px;
+}
+.title h1 em span {
+  font-style: normal;
+  border: 1px solid #cccccc;
+  padding: 1px 2px;
+  margin: 0;
+  background: #333333;
+  color: #eeeeee;
+  display: inline-block;
+}
+.title a {
+  color: inherit;
+  text-decoration: none;
+}
+.title h1 { color: #555555; }
+.title h2 {
+  text-align: right;
+  color: #333333;
+}
+.footer {
+  text-align: center;
+  border-top: 1px solid #cccccc;
+  padding: 20px;
+  margin-top: 20px;
+  color: #777777;
+}
+.footer a {
+  color: #777777;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.pictures div {
+  text-align: center;
+  padding-bottom: 20px;
+  position: relative;
+  left: 30px;
+}
+.neighbourhoods div.grid_6 {
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.neighbourhoods a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.neighbourhoods hr {
+  background: none;
+  border: none;
+  border-bottom: 1px dotted #aaaaaa;
+  margin: 0;
+}
+.users li {
+  list-style: none;
+  position: relative;
+  padding-left: 40px;
+  margin: 0 0 10px 0;
+}
+.users img {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 32px;
+}
+.tweets-show .bordered-image {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  background: white;
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  margin: 0 20px;
+}
+.tweets-show #map {
+  width: 480px;
+  height: 480px;
+  background: #eeeeee;
+  border: 1px solid #cccccc;
+}
+.tweets-show .big-tweet { margin: 60px 30px; }
+.tweets-show .big-tweet .avatar {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: 10px;
+  left: -10px;
+}
+.tweets-show .big-tweet cite { margin-left: 30px; }
+.tweets-show .big-tweet cite a { color: inherit; }
+.tweets-show .big-tweet p {
+  font-family: georgia, serif;
+  font-size: 18px;
+  line-height: 25px;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+.tweets-show .big-tweet p b {
+  font-weight: bold;
+  font-size: 1.8em;
+  color: #777777;
+  line-height: 25px;
+  position: relative;
+  top: 5px;
+}
+.active-neighbourhoods {
+  border-collapse: collapse;
+  width: 100%;
+}
+.active-neighbourhoods td + td {
+  width: 50px;
+  text-align: center;
+}
+.active-neighbourhoods th {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #777777;
+  text-align: left;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+}
+.active-neighbourhoods tr:nth-child(2) td { padding-top: 10px; }
+.active-neighbourhoods td { line-height: 20px; }
+.places-show h2 { margin-top: 30px; }
+.places-show h3 { margin-top: 30px; }
+.places-show .hide-replies {
+  background: #fafafa;
+  color: #777777;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  margin-top: -53px;
+  font-size: 0.85em;
+}
+.places-show .tweet {
+  position: relative;
+  margin: 0 0 20px 64px;
+}
+.places-show .tweet .avatar {
+  position: absolute;
+  left: -32px;
+  top: 0;
+  width: 24px;
+}
+.places-show .tweet p { color: black; }
+.places-show .tweet p a { color: inherit; }
+.places-show .tweet .meta {
+  color: #777777;
+  font-size: 0.8em;
+}
+.users-show .tweet {
+  position: relative;
+  margin: 0 0 20px 64px;
+}
+.users-show .tweet .avatar {
+  position: absolute;
+  left: -32px;
+  top: 0;
+  width: 24px;
+}
+.users-show .tweet p { color: black; }
+.users-show .tweet p a { color: inherit; }
+.users-show .tweet .meta {
+  color: #777777;
+  font-size: 0.8em;
+}
+.users-show table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.users-show table td + td {
+  width: 50px;
+  text-align: center;
+}
+.users-show table th {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #777777;
+  text-align: left;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+}
+.users-show table tr:nth-child(2) td { padding-top: 10px; }
+.users-show table td { line-height: 20px; }
+.users-show .cities li {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.cities-index .grid_14 h1 {
+  font-size: 1.5em;
+  color: #ff0088;
+}
+.cities-index h4 { font-size: 1.2em; }
+.cities-index .graphlabel {
+  text-align: center;
+  padding: 10px 0;
+  line-height: 20px;
+  font-size: 0.85em;
+  color: #777777;
+}
+.cities-index .cities { margin-top: 50px; }
+.cities-index .cities div { margin-bottom: 50px; }
+.cities-index .cities div small { font-size: 0.85em; }
+.cities-users img.avatar {
+  width: 48px;
+  height: 48px;
+}
+.cities-users .users-grid > div {
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+.cities-users .users-grid > div .grid_2 { text-align: center; }
+.cities-users .users-grid > div a {
+  display: block;
+  width: 95%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.pagination {
+  margin: 30px;
+  text-align: center;
+  font-size: 0.9em;
+}
+.pagination span.current {
+  border: 1px solid #cccccc;
+  line-height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.pagination a {
+  border: 1px solid #cccccc;
+  line-height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.pagination .next_page {
+  border: none;
+  width: 60px;
+}
+.pagination .prev_page {
+  border: none;
+  width: 80px;
+}
+.pagination a:hover {
+  background: #0077ff;
+  color: white;
+}
+.wide-map {
+  width: 100%;
+  background: #f3f3f3;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  height: 600px;
+  margin-bottom: 30px;
+}
+.wide-map #map {
+  height: 600px;
+  width: 100%;
+}
+.slider-legend {
+  display: none;
+  height: 2em;
+  margin-top: 80px;
+}
+.slider-legend .bar {
+  float: left;
+  width: 150px;
+  text-align: center;
+  border-right: 1px solid black;
+  display: block;
+}
+.slider {
+  width: 600px;
+  height: 5px;
+  margin: auto;
+  background: #eeeeee;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  position: relative;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.slider .knob {
+  background: rgba(150, 190, 255, 0.5);
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  width: 100px;
+  height: 75px;
+  top: 5px;
+  left: 300px;
+  position: absolute;
+}
+.slider .knob label {
+  position: absolute;
+  display: block;
+  top: 2px;
+  left: -40px;
+  width: 100px;
+  top: -30px;
+  text-align: center;
+  font-size: 0.9em;
+}
+.slider .knob em {
+  font-size: 30px;
+  line-height: 0;
+  color: #666666;
+  text-shadow: 0 -1px 1px black;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+.cities-tweets .tweet {
+  position: relative;
+  margin: 0 0 20px 64px;
+}
+.cities-tweets .tweet .avatar {
+  position: absolute;
+  left: -32px;
+  top: 0;
+  width: 24px;
+}
+.cities-tweets .tweet p { color: black; }
+.cities-tweets .tweet p a { color: inherit; }
+.cities-tweets .tweet .meta {
+  color: #777777;
+  font-size: 0.8em;
+}
+.cities-show .tweet {
+  position: relative;
+  margin: 0 0 20px 64px;
+}
+.cities-show .tweet .avatar {
+  position: absolute;
+  left: -32px;
+  top: 0;
+  width: 24px;
+}
+.cities-show .tweet p { color: black; }
+.cities-show .tweet p a { color: inherit; }
+.cities-show .tweet .meta {
+  color: #777777;
+  font-size: 0.8em;
+}
+.cities-show .miniphotos { float: left; }
+.cities-show .miniphotos img { width: 32px; }
+.modal-dialog {
+  display: none;
+  width: 320px;
+  height: 400px;
+  background: #f3f3f3;
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 2px;
+  padding: 0;
+  position: absolute;
+  z-index: 100000;
+  border: 1px solid #dddddd;
+}
+.modal-dialog form {
+  z-index: 100002;
+  position: relative;
+  padding: 10px;
+}
+.modal-dialog input {
+  padding: 2px;
+  font: inherit;
+  border: 1px solid #cccccc;
+}
+.modal-dialog textarea {
+  padding: 2px;
+  font: inherit;
+  border: 1px solid #cccccc;
+}
+.modal-dialog .f label { display: block; }
+.modal-dialog textarea { height: 6em; }
+.modal-dialog h1 {
+  background: #999999;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 10px;
+  color: white;
+}
+.modal-dialog .chevron {
+  z-index: 100001;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  line-height: 0;
+  font-size: 50px;
+  color: #999999;
+  text-shadow: 0 -2px 2px #dddddd;
+}
+.ad {
+  float: right;
+  width: 180px;
+  height: 60px;
+  padding: 0;
+  border: 1px dashed #cccccc;
+}
+.ad a {
+  display: block;
+  padding: 0;
+  line-height: 60px;
+  text-align: center;
+}
+.ad.editing { background: #ffffaa; }
+.place {
+  border-bottom: 1px solid #cccccc;
+  padding-left: 80px;
+  padding-top: 10px;
+  position: relative;
+  min-height: 78px;
+}
+.place:hover {
+  background: #eaf3ff;
+  cursor: pointer;
+}
+.place:hover img.mini { opacity: 1; }
+.place a:hover {
+  background: none;
+  text-decoration: underline;
+  color: black;
+}
+.place img.staticmap {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  width: 64px;
+  z-index: 100;
+}
+.place * {
+  margin: 0;
+  padding: 0;
+}
+.place p.avatars {
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  top: 10px;
+  width: 120px;
+}
+.place .meta { color: #aaaaaa; }
+.place img.mini {
+  width: 32px;
+  height: 32px;
+  opacity: 0.5;
+}
+.place h3 { padding-right: 140px; }
+.place h3 a {
+  color: black;
+  text-decoration: none;
+}
+.place h3 small {
+  display: block;
+  color: #555555;
+  font-weight: normal;
+}
+.place-table td { vertical-align: top; }
+.place-table img {
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.place-table td:nth-child(3) { text-align: center; }
+.place-table td:nth-child(2) a {
+  width: 150px;
+  margin-right: 20px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

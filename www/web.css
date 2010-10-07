@@ -1,0 +1,15 @@
+.title {
+  height: 100px;
+  background: red;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+.title h1 {
+  line-height: 100px;
+  font-size: 1.2em;
+}
+.title h2 {
+  line-height: 100px;
+  font-size: 1.2em;
+}
+.title h2 { color: #777777; }
